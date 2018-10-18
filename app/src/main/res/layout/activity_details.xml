@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Details">
+
+    <ImageView
+        android:layout_width="185dp"
+        android:layout_height="185dp"
+        android:id="@+id/movie_image_detail"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/movie_image_detail"
+        android:id="@+id/title_text_view"
+        android:textSize="30sp"
+        android:layout_marginStart="15dp"
+        android:text="Title"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/movie_image_detail"
+        android:text="Year"
+        android:layout_below="@+id/title_text_view"
+        android:textSize="30sp"
+        android:layout_marginStart="15dp"
+        android:id="@+id/year_text_view"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/movie_image_detail"
+        android:layout_below="@+id/year_text_view"
+        android:text="5/10"
+        android:textSize="30sp"
+        android:layout_marginStart="15dp"
+        android:id="@+id/rating_text_view"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movie_image_detail"
+        android:paddingTop="60dp"
+        android:text="Summary of movie plot"
+        android:id="@+id/summary_text_view"
+        />
+
+</RelativeLayout>

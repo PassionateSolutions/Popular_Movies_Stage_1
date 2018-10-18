@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Popular Movies Stage 1</string>
+    <string name="sort_most_popular">Sort Most Popular</string>
+    <string name="sort_highest_rated">Sort Highest Rated</string>
+    <string name="no_connection_established">No connection established</string>
+</resources>
