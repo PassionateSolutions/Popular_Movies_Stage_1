@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity implements MainActivityInter
     private RecyclerView movieGrid;
     private TextView errorMessage;
     private ProgressBar loadingIndicator;
-    private static final String SORT_BY_MOST_POPULAR = "popularity.desc";
-    private static final String SORT_BY_HIGHEST_RATED = "vote_average.desc";
+    private static final String SORT_BY_MOST_POPULAR = "http://api.themoviedb.org/3/movie/popular?api_key=";
+    private static final String SORT_BY_HIGHEST_RATED = "http://api.themoviedb.org/3/movie/top_rated?api_key=";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements MainActivityInter
         movieGrid.setAdapter(movieAdapter);
         errorMessage = findViewById(R.id.empty_view);
         loadingIndicator = findViewById(R.id.loading_indicator);
-        sortBy = "popularity.desc";
+        sortBy = "http://api.themoviedb.org/3/movie/popular?api_key=";
         getMovies();
     }
 
