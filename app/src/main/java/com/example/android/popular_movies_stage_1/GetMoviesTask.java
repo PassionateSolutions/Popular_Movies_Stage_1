@@ -18,6 +18,9 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+// Followed the walkthrough of @Gill AND from Slack.  His video on Youtube helped me follow the direction
+// to implement the working code.
+
 public class GetMoviesTask extends AsyncTask<MainActivityInterface, Void, ArrayList<Movie>>{
 
     private static final String BASE_URL = "https://api.themoviedb.org/3/discover/movie?api_key=(insert key here and remove parenthesis)&language=en-US&include_adult=false&include_video=false&page=1&sort_by=";

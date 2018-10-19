@@ -17,6 +17,10 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
+
+// Followed the walkthrough of @Gill AND from Slack.  His video on Youtube helped me follow the direction
+// to implement the working code.
+
 public class MainActivity extends AppCompatActivity implements MainActivityInterface {
 
     private String sortBy;

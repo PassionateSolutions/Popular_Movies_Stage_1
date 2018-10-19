@@ -5,6 +5,9 @@ import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+// Followed the walkthrough of @Gill AND from Slack.  His video on Youtube helped me follow the direction
+// to implement the working code.
+
 public class Movie implements Parcelable {
 
     private final String Date;
