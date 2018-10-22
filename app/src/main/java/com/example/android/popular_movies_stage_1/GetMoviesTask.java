@@ -23,7 +23,7 @@ import java.util.Scanner;
 
 public class GetMoviesTask extends AsyncTask<MainActivityInterface, Void, ArrayList<Movie>>{
 
-    private static final String BASE_URL = "https://api.themoviedb.org/3/discover/movie?api_key=(insert key here and remove parenthesis)&language=en-US&include_adult=false&include_video=false&page=1&sort_by=";
+    private static final String BASE_URL = "";
     private MainActivityInterface mainActivityInterface;
 
     @Override
